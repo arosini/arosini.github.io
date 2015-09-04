@@ -1,0 +1,60 @@
+#experience
+
+  .experience
+    @extend .section-row
+
+    .experience-title
+      @extend .section-row-title
+
+    .experience-employer
+      @extend .row
+      font-size: 3em
+
+    .experience-dates
+      @extend .row
+      font-size: 2em
+
+    .experience-body
+      @extend .equal-height-column-row
+      font-size: 1.5em
+      margin-top: 3em
+
+      .experience-image
+        @extend .equal-height-column
+
+      .experience-description-wrapper
+        @extend .equal-height-column
+        vertical-align: top
+        padding: 0em 2em
+
+        .experience-description
+          @extend .row
+
+          .experience-description-title
+            @extend .row
+            font-size: 1.75em
+            font-weight: bold
+            margin-bottom: 5px
+
+          li
+            margin-bottom: 5px
+
+
+  #jobcase
+    .experience-title
+      color: $jobcase-color
+
+    .experience-body
+      font-size: 3em
+      text-align: center
+      margin-top: 1em
+
+  #upmc-enterprises
+    .experience-title
+      color: $upmc-enterprises-color
+
+  #athletetrax
+    .experience-title
+      color: $rails-color
+
+

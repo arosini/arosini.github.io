@@ -1,0 +1,58 @@
+#skills
+
+  $high-proficiency: #1EFC16
+  $medium-proficiency: #16FCF4
+  $past-proficiency: #FCF416
+
+  #skill-proficiency-legend
+    @extend .equal-height-column-row
+    font-size: 2em
+
+    .legend-entry
+      @extend .equal-height-column
+
+      .check-mark
+        font-size: 4em
+
+      .high-proficiency
+        color: $high-proficiency
+
+      .medium-proficiency
+        color: $medium-proficiency
+
+      .past-proficiency
+        color: $past-proficiency
+
+  .skill-category-row
+    @extend .equal-height-column-row
+    font-size: 2em
+
+    .skill-category
+      @extend .equal-height-column
+      vertical-align: top
+      margin: 0em 5em
+
+      .skill-category-title
+        font-weight: bold
+        padding: 1em
+
+      .skill-category-list
+        list-style-type: none
+
+        li:before
+          content: '\2713'
+
+      .skill-category-list.high-proficiency li:before
+        color: $high-proficiency
+
+      .skill-category-list.medium-proficiency li:before
+        color: $medium-proficiency
+
+      .skill-category-list.past-proficiency li:before
+        color: $past-proficiency
+
+    .skill-category-seperator
+      @extend .equal-height-column
+      width: 5%
+      margin: 0
+      padding: 0

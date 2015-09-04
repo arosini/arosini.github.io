@@ -1,0 +1,21 @@
+%section.container-fluid
+  .section-title Contact
+  .primary-contact
+    The best way to contact me is at
+    
+    %span.primary-contact-text= mail_to "adaros48@gmail.com"
+    %span>.
+    %br
+    %br
+    You can also contact me through the following websites:
+  .col-xs-12.profiles
+    .col-xs-2.equal-height-column
+    .col-xs-2.profile
+      = link_to_blank image_tag("images/github-large.png"), "https://github.com/arosini"
+    .col-xs-2.profile
+      = link_to_blank image_tag("images/stackoverflow.png"), "http://stackoverflow.com/users/2464657/adam-rosini"
+    .col-xs-2.profile
+      = link_to_blank image_tag("images/linkedin.png"), "https://www.linkedin.com/pub/adam-rosini/76/860/b79"
+    .col-xs-2.profile
+      = link_to_blank "Jobcase, Inc.", "https://www.jobcase.com/p/adam.rosini"
+    .col-xs-2.equal-height-column

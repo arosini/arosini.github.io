@@ -1,0 +1,51 @@
+#projects
+
+  .project
+    @extend .equal-height-column-row
+    margin-bottom: 4em
+
+    .project-image
+      @extend .equal-height-column
+
+    .project-text
+      @extend .equal-height-column
+      vertical-align: top
+
+      .project-title
+        @extend .row
+        text-align: left
+        font-size: $section-row-title-font-size
+
+      .project-description
+        @extend .row
+        font-size: 1.5em
+        text-align: left
+
+      .project-links
+        @extend .equal-height-column-row
+        width: 100%
+        margin-top: 2em
+        text-align: left
+        img
+          margin-top: -.2em
+        a
+          font-size: 2.5em
+
+      .legal
+        text-align: left
+
+  #rails-starter-app
+    .project-title
+      color: $rails-color
+
+  #spring-boot-starter-app
+    .project-title
+      color: $spring-color
+
+  #this-website
+    .project-title
+      color: $middleman-color
+
+  #stat-compiler-for-dota-2
+    .project-title
+      color: $android-color

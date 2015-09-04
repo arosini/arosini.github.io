@@ -1,4 +1,7 @@
+# Directories
 .sass-cache
+/build
+
+# Files
 *.css.map
 Thumbs.db
-/build

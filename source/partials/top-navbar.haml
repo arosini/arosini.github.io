@@ -1,0 +1,18 @@
+%nav.navbar.navbar-fixed-top
+  .container-fluid
+    .navbar-header
+      %button.navbar-toggle.collapsed{"aria-expanded" => "false", "data-target" => "#top-navbar .navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+    .collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-left
+        %li <strong>Adam</strong>Rosini
+      %ul.nav.navbar-nav.navbar-right
+        %li=link_to "About Me", "#about-me"
+        %li=link_to "Experience", "#experience"
+        %li=link_to "Skills", "#skills"
+        %li=link_to "Projects", "#projects"
+        %li=link_to "Education", "#education"
+        %li=link_to "Contact", "#contact"
