@@ -1,0 +1,22 @@
+!!!
+%html
+  %head
+    %meta{:charset => "utf-8"}/
+    -# Always force latest IE rendering engine or request Chrome Frame
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
+    %meta{:name => "viewport", :content => "width=device-width", "initial-scale" => "1"}
+    %meta{:name => "description", :content => "Adam Rosini's online resume. Adam Rosini is a software developer."}
+    %title= "Adam Rosini's Online Resume"
+    -#= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    = stylesheet_link_tag "https://bootswatch.com/spacelab/bootstrap.min.css"
+    = stylesheet_link_tag "styles"
+  %body{:class => page_classes, "data-spy" => "scroll", "data-target" => "#side-navbar", "data-offset" => 70}
+    = yield
+  -#  JQuery
+  %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
+  %script window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')
+  -#  Bootstrap JS
+  %script{:src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"}
+  %script $.fn.modal || document.write('<script src="assets/js/bootstrap.min.js"><\/script>')
+  -#  Custom JS
+  = javascript_include_tag "index"
