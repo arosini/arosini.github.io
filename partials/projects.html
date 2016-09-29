@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width' initial-scale='1' name='viewport'>
+    <meta content='Adam Rosini, software developer.' name='description'>
+    <title>Adam Rosini</title>
+    <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <section class='container-fluid'>
+      <div class='section-title'>Projects</div>
+      <div class='project' id='spring-boot-starter-app'>
+        <div class='col-xs-4 project-image'><a target="_blank" href="https://spring.io/"><img src="/images/spring.png" /></a></div>
+        <div class='col-xs-7 project-text'>
+          <div class='project-title'>Spring Boot Starter App</div>
+          <div class='project-description'>
+            I built this application as a sandbox to try out features of Spring Boot, Spring Data, JPA, MongoDB, Gradle, Lombok and RestAssured. It contains a RESTful web service with CRUD functionality for one resource (User).
+            <br>
+            <br>
+            The application showcases how easy it is to implement simple microservices with Spring Data. There is no security on the application, but I did implement a request limit to prevent Heroku from charging me. I hope to add a Docker build and some more features, such as another resource, to the application soon.
+          </div>
+          <div class='project-links'>
+            <span class='col-xs-6'><a target="_blank" href="https://github.com/arosini/spring-boot-starter-app"><img src="/images/github.png" /> Source Code</a></span>
+            <span class='col-xs-6'><a target="_blank" href="https://spring-boot-starter-app.herokuapp.com"><img src="/images/heroku.png" /> Deployment</a></span>
+          </div>
+        </div>
+        <div class='col-xs-1 equal-height-column'></div>
+      </div>
+      <hr class='col-xs-10 col-xs-offset-1'>
+      <div class='project' id='rails-starter-app'>
+        <div class='col-xs-1 equal-height-column'></div>
+        <div class='col-xs-6 col-xs-offset-1 project-text'>
+          <div class='project-title'>Rails Starter App</div>
+          <div class='project-description'>
+            I built this application as a sandbox to try out features of Rails, Ruby, JavaScript, ActiveRecord, MySQL, Bootstrap, MiniTest, Cucumber and Selenium.
+            It contains a UI with authentication, authorization and CRUD functionality for its two models (User and Role).
+            <br>
+            <br>
+            The source code contains my preferred Rails development stack, some basic UI design patterns, common Rails usages/gems and my own set of generic Cucumber steps.
+            Only admins can perform significant action in the application, so contact me if you would like admin power in my example deployment.
+          </div>
+          <div class='project-links'>
+            <span class='col-xs-6'><a target="_blank" href="https://github.com/arosini/rails-starter-app"><img src="/images/github.png" /> Source Code</a></span>
+            <span class='col-xs-6'><a target="_blank" href="https://rails-starter-application.herokuapp.com"><img src="/images/heroku.png" /> Deployment</a></span>
+          </div>
+        </div>
+        <div class='col-xs-4 project-image'><a target="_blank" href="http://rubyonrails.org/"><img src="/images/rails.png" /></a></div>
+      </div>
+      <hr class='col-xs-10 col-xs-offset-1'>
+      <div class='project' id='this-website'>
+        <div class='col-xs-4 project-image'><a target="_blank" href="https://middlemanapp.com/"><img src="/images/middleman.png" /></a></div>
+        <div class='col-xs-6 col-xs-offset-1 project-text'>
+          <div class='project-title'>This Website</div>
+          <div class='project-description'>
+            I built this website using Middleman, HAML, SASS, CoffeeScript, GitHub Pages and GoDaddy.
+            <br>
+            <br>
+            This website is meant to serve the same purpose as a resume, except in a style more applicable for a software engineer. I tried to design the webiste in a more modern style with horizontal sections that would lead the reader through in an easy-to-read way. Design has never been my strong point and I would certainly appreciate any input you had to offer in terms of the design and UX of this website!
+          </div>
+          <div class='project-links'>
+            <a target="_blank" href="https://github.com/arosini/arosini.github.io"><img src="/images/github.png" /> Source Code</a>
+          </div>
+        </div>
+        <div class='col-xs-1 equal-height-column'></div>
+      </div>
+      <hr class='col-xs-10 col-xs-offset-1'>
+      <div class='project' id='stat-compiler-for-dota-2'>
+        <div class='col-xs-1 equal-height-column'></div>
+        <div class='col-xs-6 project-text'>
+          <div class='project-title'>Stat Compiler for Dota 2</div>
+          <div class='project-description'>
+            I built this Android&#8482 application for a course in graduate school. It wasn't a requirement to publish it, but my friends and I actually wanted to use it.
+            <br>
+            <br>
+            The app is for players of the game DotA (Defense of the Ancients) 2. It compiles the stats from their most recent games by sending requests to a web service I also wrote. The web service makes requests to the Steam and Dota 2 APIs. Unforunately, I am unable to share the code for this project.
+          </div>
+          <div class='project-links'>
+            <a href='https://play.google.com/store/apps/details?id=edu.cmu.heinz.arosini.dotaapp&amp;hl=en&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target='blank'>
+              <img alt='Get it on Google Play' height='100px' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width='250px'>
+            </a>
+          </div>
+          <div class='legal'>
+            Google Play and the Google Play logo are trademarks of Google Inc. The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License.
+          </div>
+        </div>
+        <div class='col-xs-4 project-image'><a target="_blank" href="https://www.android.com/"><img src="/images/android.png" /></a></div>
+      </div>
+    </section>
+  </body>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+  <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+  <script>$.fn.modal || document.write('<script src="assets/js/vendor/bootstrap.min.js"><\/script>')</script>
+  <script src="/javascripts/index.js" type="text/javascript"></script>
+</html>
