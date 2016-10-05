@@ -40,30 +40,32 @@
       <section class='container-fluid'>
         <div id='hello'>Hi! My name is Adam.</div>
         <div class='col-xs-8 col-xs-offset-2' id='intro-statement'>
-          <div class='row col-xs-12'>
+          <div class='col-xs-12 intro-statement-row'>
             I am a
             <div class='emphasized' id='current-job-title'>Software Engineer</div>
             who specializes in developing web services with Java, Ruby and JavaScript.
           </div>
-          <div class='row col-xs-12'>
+          <div class='col-xs-12 intro-statement-row'>
             I work at
             <div class='emphasized' id='current-employer'><a target="_blank" href="https://www.jobcase.com">Jobcase, Inc</a></div>
             and live in
             <div class='emphasized' id='current-location'>Boston, MA</div><span>.</span></div>
         </div>
-        <div class='row col-xs-12' id='intro-links'>
-          <div class='col-xs-3 col-xs-offset-3'>
+        <div class='col-xs-12' id='intro-links'>
+          <div class='col-xs-3 equal-height-column'></div>
+          <div class='col-xs-3 intro-links-column'>
             <a target="_blank" href="/documents/resume.pdf"><img src="/images/resume.png" />
             <div class='text-image-spacer'></div>
             My Resume
             </a>
           </div>
-          <div class='col-xs-3'>
+          <div class='col-xs-3 intro-links-column'>
             <a href="mailto:adaros48@gmail.com"><img src="/images/email.png" />
             <div class='text-image-spacer'></div>
             adaros48@gmail.com
             </a>
           </div>
+          <div class='col-xs-3 equal-height-column-row'></div>
         </div>
       </section>
     </div>
@@ -172,8 +174,8 @@
         </div>
         <hr class='col-xs-10 col-xs-offset-1'>
         <div class='col-xs-12 skill-category-row'>
-          <div class='col-xs-5 skill-category'>
-            <div class='pull-right'>
+          <div class='col-xs-6 skill-category'>
+            <div class='col-xs-9 pull-right'>
               <div class='skill-category-title'>Programming Langauges and Frameworks</div>
               <div class='col-xs-4'>
                 <ul class='skill-category-list high-proficiency'>
@@ -204,9 +206,8 @@
               </div>
             </div>
           </div>
-          <div class='col-xs-2 skill-category-seperator'></div>
-          <div class='col-xs-5 skill-category'>
-            <div class='pull-left'>
+          <div class='col-xs-6 skill-category'>
+            <div class='col-xs-9'>
               <div class='skill-category-title'>Automated Testing And Static Analysis</div>
               <div class='col-xs-4'>
                 <ul class='skill-category-list high-proficiency'>
@@ -238,8 +239,8 @@
         </div>
         <hr class='col-xs-10 col-xs-offset-1'>
         <div class='col-xs-12 skill-category-row'>
-          <div class='col-xs-5 skill-category'>
-            <div class='pull-right'>
+          <div class='col-xs-6 skill-category'>
+            <div class='col-xs-9 pull-right'>
               <div class='skill-category-title'>Development Tools and Operations</div>
               <div class='col-xs-4'>
                 <ul class='skill-category-list high-proficiency'>
@@ -267,9 +268,8 @@
               </div>
             </div>
           </div>
-          <div class='col-xs-2 skill-category-seperator'></div>
-          <div class='col-xs-5 skill-category'>
-            <div class='pull-left'>
+          <div class='col-xs-6 skill-category'>
+            <div class='col-xs-9'>
               <div class='skill-category-title'>Databases, ORMs and Miscellaneous</div>
               <div class='col-xs-4'>
                 <ul class='skill-category-list high-proficiency'>
@@ -304,7 +304,8 @@
       <section class='container-fluid'>
         <div class='section-title'>Projects</div>
         <div class='project' id='spring-boot-starter-app'>
-          <div class='col-xs-4 project-image'><a target="_blank" href="https://spring.io/"><img src="/images/spring.png" /></a></div>
+          <div class='col-xs-1 equal-height-column'></div>
+          <div class='col-xs-3 project-image'><a target="_blank" href="https://spring.io/"><img src="/images/spring.png" /></a></div>
           <div class='col-xs-7 project-text'>
             <div class='project-title'>Spring Boot Starter App</div>
             <div class='project-description'>
@@ -313,7 +314,7 @@
               <br>
               The application showcases how easy it is to implement simple microservices with Spring Data. There is no security on the application, but I did implement a request limit to prevent Heroku from charging me. I hope to add a Docker build and some more features, such as another resource, to the application soon.
             </div>
-            <div class='project-links'>
+            <div class='col-xs-12 project-links'>
               <span class='col-xs-6'><a target="_blank" href="https://github.com/arosini/spring-boot-starter-app"><img src="/images/github.png" /> Source Code</a></span>
               <span class='col-xs-6'><a target="_blank" href="https://spring-boot-starter-app.herokuapp.com"><img src="/images/heroku.png" /> Deployment</a></span>
             </div>
@@ -323,7 +324,7 @@
         <hr class='col-xs-10 col-xs-offset-1'>
         <div class='project' id='rails-starter-app'>
           <div class='col-xs-1 equal-height-column'></div>
-          <div class='col-xs-6 col-xs-offset-1 project-text'>
+          <div class='col-xs-7 project-text'>
             <div class='project-title'>Rails Starter App</div>
             <div class='project-description'>
               I built this application as a sandbox to try out features of Rails, Ruby, JavaScript, ActiveRecord, MySQL, Bootstrap, MiniTest, Cucumber and Selenium.
@@ -333,17 +334,19 @@
               The source code contains my preferred Rails development stack, some basic UI design patterns, common Rails usages/gems and my own set of generic Cucumber steps.
               Only admins can perform significant action in the application, so contact me if you would like admin power in my example deployment.
             </div>
-            <div class='project-links'>
+            <div class='col-xs-12 project-links'>
               <span class='col-xs-6'><a target="_blank" href="https://github.com/arosini/rails-starter-app"><img src="/images/github.png" /> Source Code</a></span>
               <span class='col-xs-6'><a target="_blank" href="https://rails-starter-application.herokuapp.com"><img src="/images/heroku.png" /> Deployment</a></span>
             </div>
           </div>
-          <div class='col-xs-4 project-image'><a target="_blank" href="http://rubyonrails.org/"><img src="/images/rails.png" /></a></div>
+          <div class='col-xs-3 project-image'><a target="_blank" href="http://rubyonrails.org/"><img src="/images/rails.png" /></a></div>
+          <div class='col-xs-1 equal-height-column'></div>
         </div>
         <hr class='col-xs-10 col-xs-offset-1'>
         <div class='project' id='this-website'>
-          <div class='col-xs-4 project-image'><a target="_blank" href="https://middlemanapp.com/"><img src="/images/middleman.png" /></a></div>
-          <div class='col-xs-6 col-xs-offset-1 project-text'>
+          <div class='col-xs-1 equal-height-column'></div>
+          <div class='col-xs-3 project-image'><a target="_blank" href="https://middlemanapp.com/"><img src="/images/middleman.png" /></a></div>
+          <div class='col-xs-7 col-xs-offset-1 project-text'>
             <div class='project-title'>This Website</div>
             <div class='project-description'>
               I built this website using Middleman, HAML, SASS, CoffeeScript, GitHub Pages and GoDaddy.
@@ -351,7 +354,7 @@
               <br>
               This website is meant to serve the same purpose as a resume, except in a style more applicable for a software engineer. I tried to design the webiste in a more modern style with horizontal sections that would lead the reader through in an easy-to-read way. Design has never been my strong point and I would certainly appreciate any input you had to offer in terms of the design and UX of this website!
             </div>
-            <div class='project-links'>
+            <div class='col-xs-12 project-links'>
               <a target="_blank" href="https://github.com/arosini/arosini.github.io"><img src="/images/github.png" /> Source Code</a>
             </div>
           </div>
@@ -368,13 +371,15 @@
               <br>
               The app is for players of the game DotA (Defense of the Ancients) 2. It compiles the stats from their most recent games by sending requests to a web service I also wrote. The web service makes requests to the Steam and Dota 2 APIs. Unforunately, I am unable to share the code for this project.
             </div>
-            <div class='project-links'>
-              <a href='https://play.google.com/store/apps/details?id=edu.cmu.heinz.arosini.dotaapp&amp;hl=en&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target='blank'>
-                <img alt='Get it on Google Play' height='100px' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width='250px'>
-              </a>
-            </div>
-            <div class='legal'>
-              Google Play and the Google Play logo are trademarks of Google Inc. The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License.
+            <div class='col-xs-12 project-links'>
+              <div class='col-xs-3 equal-height-column'>
+                <a href='https://play.google.com/store/apps/details?id=edu.cmu.heinz.arosini.dotaapp&amp;hl=en&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target='blank'>
+                  <img alt='Get it on Google Play' height='50px' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width='125px'>
+                </a>
+              </div>
+              <div class='col-xs-9 legal'>
+                Google Play and the Google Play logo are trademarks of Google Inc. The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License.
+              </div>
             </div>
           </div>
           <div class='col-xs-4 project-image'><a target="_blank" href="https://www.android.com/"><img src="/images/android.png" /></a></div>
@@ -445,7 +450,7 @@
             <a target="_blank" href="https://www.linkedin.com/pub/adam-rosini/76/860/b79"><img src="/images/linkedin.png" /></a>
           </div>
           <div class='col-xs-2 profile'>
-            <a target="_blank" href="https://www.jobcase.com/p/adam.rosini">Jobcase, Inc.</a>
+            <a target="_blank" href="https://www.jobcase.com/p/adam.rosini"><img src="/images/jobcase.jpeg" /></a>
           </div>
           <div class='col-xs-2 equal-height-column'></div>
         </div>
