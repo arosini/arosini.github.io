@@ -1,28 +1,30 @@
+$navbar-height: 70px
+
 body
-  margin-top: 70px
+  margin-top: $navbar-height
 
 #top-navbar
 
   .navbar-fixed-top
     background-color: black
     color: white
-    padding: 1em 0em .5em 0em
-    margin-bottom: 0em
+    height: $navbar-height
+    line-height: $navbar-height
 
-  .navbar-left
-    margin-left: 5em
-    font-family: 'Arima Madurai', cursive
-    font-size: 3em
+    .navbar-left
+      padding-left: 2em
+      font-family: 'Arima Madurai', cursive
+      font-size: 2em
 
-  .navbar-right
-    margin-right: 5em
-    font-family: 'Lato', sans-serif
-    font-size: 1.5em
+    .navbar-right
+      padding-right: 3.5em
+      font-family: 'Lato', sans-serif
 
-  a
-    background: black
-    color: white
-    margin: 0em 1em
+      a
+        background: black
+        color: white
+        display: inline-block
+        padding: 0em 1em
 
-  a:hover
-    font-weight: bold
+      a:hover
+        font-weight: bold

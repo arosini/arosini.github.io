@@ -2,7 +2,6 @@
 
   .project
     @extend .equal-height-column-row
-    margin-bottom: 4em
 
     .project-image
       @extend .equal-height-column
@@ -13,26 +12,25 @@
 
       .project-title
         @extend .row
+        @extend .section-row-title
         text-align: left
-        font-size: $section-row-title-font-size
+        padding: .2em
 
       .project-description
         @extend .row
-        font-size: 1.5em
         text-align: left
 
       .project-links
         @extend .equal-height-column-row
-        width: 100%
         margin-top: 2em
         text-align: left
         img
           margin-top: -.2em
-        a
-          font-size: 2.5em
 
       .legal
+        @extend .equal-height-column
         text-align: left
+        font-size: .55em
 
   #rails-starter-app
     .project-title
@@ -49,3 +47,6 @@
   #stat-compiler-for-dota-2
     .project-title
       color: $android-color
+
+    .project-links
+      margin-top: .5em

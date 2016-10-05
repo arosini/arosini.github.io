@@ -2,26 +2,28 @@
   #hello Hi! My name is Adam.
 
   #intro-statement.col-xs-8.col-xs-offset-2
-    .row.col-xs-12
+    .col-xs-12.intro-statement-row
       I am a
       #current-job-title.emphasized Software Engineer
       who specializes in developing web services with Java, Ruby and JavaScript.
-    .row.col-xs-12
+    .col-xs-12.intro-statement-row
       I work at
       #current-employer.emphasized=link_to_blank "Jobcase, Inc", "https://www.jobcase.com"
       and live in 
       #current-location.emphasized Boston, MA
       %span> .
 
-  #intro-links.row.col-xs-12
-    .col-xs-3.col-xs-offset-3
+  #intro-links.col-xs-12
+    .col-xs-3.equal-height-column
+    .col-xs-3.intro-links-column
       = link_to "documents/resume.pdf", { target: "_blank" } do
         = image_tag("images/resume.png")
         .text-image-spacer
         My Resume
-    .col-xs-3
+    .col-xs-3.intro-links-column
       - mail_content = capture do
         = image_tag("images/email.png")
         .text-image-spacer
         adaros48@gmail.com
       = mail_to "adaros48@gmail.com", mail_content
+    .col-xs-3.equal-height-column-row

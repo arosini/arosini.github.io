@@ -1,12 +1,10 @@
 #skills
-
   $high-proficiency: #1EFC16
   $medium-proficiency: #16FCF4
   $past-proficiency: #FCF416
 
   #skill-proficiency-legend
     @extend .equal-height-column-row
-    font-size: 2em
 
     .legend-entry
       @extend .equal-height-column
@@ -25,7 +23,6 @@
 
   .skill-category-row
     @extend .equal-height-column-row
-    font-size: 2em
 
     .skill-category
       @extend .equal-height-column
@@ -37,6 +34,7 @@
         padding: 1em
 
       .skill-category-list
+        padding-left: 0
         list-style-type: none
 
         li:before
@@ -50,9 +48,3 @@
 
       .skill-category-list.past-proficiency li:before
         color: $past-proficiency
-
-    .skill-category-seperator
-      @extend .equal-height-column
-      width: 5%
-      margin: 0
-      padding: 0

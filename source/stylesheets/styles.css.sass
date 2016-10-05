@@ -12,7 +12,7 @@ a:hover
   text-decoration: underline
 
 section
-  padding-bottom: 4em
+  padding-bottom: 2em
 
 section.dark
   background: #222
@@ -26,15 +26,18 @@ hr
   height: 1px
   color: #333
   background-color: #333
-  margin: 4em 10em
+  margin: 2em 10em
 
 ul
   text-align: left
   list-style-type: square
 
+.row
+  display: inline-block
+
 // Common classes
 .section-title
-  font-size: 10em
+  font-size: 6em
   font-family: 'Raleway', sans-serif
   padding: .2em 0em
   color: #222
@@ -45,7 +48,7 @@ ul
 
 .section-row-title
   @extend .row
-  font-size: 4em
+  font-size: 3em
 
 .equal-height-column-row
   @extend .row
@@ -60,8 +63,6 @@ ul
   border-right: 1px solid gray
 
 // Variables
-$section-row-title-font-size: 6em
-
 $jobcase-color: #FF8E00
 $upmc-enterprises-color: #772162
 $athletetrax-color: #3098d4

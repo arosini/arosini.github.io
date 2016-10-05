@@ -6,12 +6,14 @@
   background-color: #333
 
   #hello
-    font-size: 6em
-    padding: .6em
+    font-size: 3.5em
+    padding: .5em
 
   #intro-statement
-    .row
-      font-size: 3em
+
+    .intro-statement-row
+      @extend .row
+      font-size: 2em
       margin-bottom: 1.5em
 
     .emphasized
@@ -28,15 +30,17 @@
       color: #68F18B
 
   #intro-links
-    a
-      color: white
-      font-weight: bold
-      font-size: 2em
+    @extend .equal-height-column-row
 
-    .intro-link-image
-      margin: 1em
+    .intro-links-column
+      @extend .equal-height-column
 
-    .text-image-spacer
-      height: .4em
+      a
+        color: white
 
+      .intro-link-image
+        margin: 1em
+
+      .text-image-spacer
+        height: .1em
 

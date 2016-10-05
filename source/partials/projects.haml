@@ -2,7 +2,8 @@
   .section-title Projects
 
   #spring-boot-starter-app.project
-    .col-xs-4.project-image= link_to_blank image_tag("images/spring.png"), "https://spring.io/"
+    .col-xs-1.equal-height-column
+    .col-xs-3.project-image= link_to_blank image_tag("images/spring.png"), "https://spring.io/"
     .col-xs-7.project-text
       .project-title Spring Boot Starter App
       .project-description
@@ -10,7 +11,7 @@
         %br
         %br
         The application showcases how easy it is to implement simple microservices with Spring Data. There is no security on the application, but I did implement a request limit to prevent Heroku from charging me. I hope to add a Docker build and some more features, such as another resource, to the application soon.
-      .project-links
+      .col-xs-12.project-links
         %span.col-xs-6=link_to_blank image_tag("images/github.png") +  " Source Code", "https://github.com/arosini/spring-boot-starter-app"
         %span.col-xs-6=link_to_blank image_tag("images/heroku.png") + " Deployment", "https://spring-boot-starter-app.herokuapp.com"
     .col-xs-1.equal-height-column
@@ -19,7 +20,7 @@
 
   #rails-starter-app.project
     .col-xs-1.equal-height-column
-    .col-xs-6.col-xs-offset-1.project-text
+    .col-xs-7.project-text
       .project-title Rails Starter App
       .project-description
         I built this application as a sandbox to try out features of Rails, Ruby, JavaScript, ActiveRecord, MySQL, Bootstrap, MiniTest, Cucumber and Selenium.
@@ -28,23 +29,25 @@
         %br
         The source code contains my preferred Rails development stack, some basic UI design patterns, common Rails usages/gems and my own set of generic Cucumber steps.
         Only admins can perform significant action in the application, so contact me if you would like admin power in my example deployment.
-      .project-links
+      .col-xs-12.project-links
         %span.col-xs-6=link_to_blank image_tag("images/github.png") +  " Source Code", "https://github.com/arosini/rails-starter-app"
         %span.col-xs-6=link_to_blank image_tag("images/heroku.png") + " Deployment", "https://rails-starter-application.herokuapp.com"
-    .col-xs-4.project-image= link_to_blank image_tag("images/rails.png"), "http://rubyonrails.org/"
+    .col-xs-3.project-image= link_to_blank image_tag("images/rails.png"), "http://rubyonrails.org/"
+    .col-xs-1.equal-height-column
 
   %hr.col-xs-10.col-xs-offset-1
 
   #this-website.project
-    .col-xs-4.project-image= link_to_blank image_tag("images/middleman.png"), "https://middlemanapp.com/"
-    .col-xs-6.col-xs-offset-1.project-text
+    .col-xs-1.equal-height-column
+    .col-xs-3.project-image= link_to_blank image_tag("images/middleman.png"), "https://middlemanapp.com/"
+    .col-xs-7.col-xs-offset-1.project-text
       .project-title This Website
       .project-description
         I built this website using Middleman, HAML, SASS, CoffeeScript, GitHub Pages and GoDaddy.
         %br
         %br
         This website is meant to serve the same purpose as a resume, except in a style more applicable for a software engineer. I tried to design the webiste in a more modern style with horizontal sections that would lead the reader through in an easy-to-read way. Design has never been my strong point and I would certainly appreciate any input you had to offer in terms of the design and UX of this website!
-      .project-links
+      .col-xs-12.project-links
         =link_to_blank image_tag("images/github.png") +  " Source Code", "https://github.com/arosini/arosini.github.io"
     .col-xs-1.equal-height-column
 
@@ -59,9 +62,10 @@
         %br
         %br
         The app is for players of the game DotA (Defense of the Ancients) 2. It compiles the stats from their most recent games by sending requests to a web service I also wrote. The web service makes requests to the Steam and Dota 2 APIs. Unforunately, I am unable to share the code for this project.
-      .project-links
-        %a{href:  "https://play.google.com/store/apps/details?id=edu.cmu.heinz.arosini.dotaapp&hl=en&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1", target: "blank"}
-          %img{alt: "Get it on Google Play", src: "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png", height: "100px", width: "250px"}/
-      .legal
-        Google Play and the Google Play logo are trademarks of Google Inc. The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License.
+      .col-xs-12.project-links
+        .col-xs-3.equal-height-column
+          %a{href:  "https://play.google.com/store/apps/details?id=edu.cmu.heinz.arosini.dotaapp&hl=en&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1", target: "blank"}
+            %img{alt: "Get it on Google Play", src: "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png", height: "50px", width: "125px"}/
+        .col-xs-9.legal
+          Google Play and the Google Play logo are trademarks of Google Inc. The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License.
     .col-xs-4.project-image= link_to_blank image_tag("images/android.png"), "https://www.android.com/"
