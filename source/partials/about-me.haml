@@ -4,26 +4,13 @@
   #intro-statement.col-xs-8.col-xs-offset-2
     .col-xs-12.intro-statement-row
       I am a
-      #current-job-title.emphasized Software Engineer
-      who specializes in developing web services with Java, Ruby and JavaScript.
-    .col-xs-12.intro-statement-row
-      I work at
-      #current-employer.emphasized=link_to_blank "Jobcase, Inc", "https://www.jobcase.com"
-      and live in 
-      #current-location.emphasized Boston, MA
-      %span> .
+      #job-title.emphasized Software Engineer & Manager.
 
-  #intro-links.col-xs-12
-    .col-xs-3.equal-height-column
-    .col-xs-3.intro-links-column
-      = link_to "documents/resume.pdf", { target: "_blank" } do
-        = image_tag("images/resume.png")
-        .text-image-spacer
-        My Resume
-    .col-xs-3.intro-links-column
-      - mail_content = capture do
-        = image_tag("images/email.png")
-        .text-image-spacer
-        adaros48@gmail.com
-      = mail_to "adaros48@gmail.com", mail_content
-    .col-xs-3.equal-height-column-row
+    .col-xs-12.intro-statement-row
+      I am currently looking for a remote position and live near
+      #current-location.emphasized Boston, MA
+      %span> . 
+
+    .col-xs-12.intro-statement-row
+      I specialize in building self-driven teams, as well as developing scalable distributed systems with Java.
+      I have significant experience with operational incident management, ETL (Extract-Transform-Load) processes, and converting monolith architectures to event-driven microservices.

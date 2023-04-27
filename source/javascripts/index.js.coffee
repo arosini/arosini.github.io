@@ -8,14 +8,14 @@ do ->
     $viewPort = $('html, body')
 
     # Animate scroll to links on the same page.
-    # TODO: Fix bug where if you spam a link, you can't scroll manually.
-    $('a[href*=#]:not([href=#])').click ->
+    $('#top-navbar a').click (e) ->
+      e.preventDefault()
       href = $.attr(this, 'href')
 
       $viewPort.animate { scrollTop: $(href).offset().top - MARGIN_TOP}, 500, ->
-        window.location.hash = href
+        $viewPort.clearQueue()
+        history.pushState({}, '', href);
         return
-      false
-
+      return
   return
 return

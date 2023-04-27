@@ -5,3 +5,4 @@
 # Files
 *.css.map
 Thumbs.db
+**.DS_Store**

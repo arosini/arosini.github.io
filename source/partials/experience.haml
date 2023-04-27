@@ -1,20 +1,62 @@
 %section.container-fluid
   .col-xs-12.section-title Experience
 
-  #jobcase.col-xs-12.experience
-    .col-xs-12.experience-title Senior Software Engineer
-    .col-xs-12.experience-employer= link_to_blank "Jobcase, Inc", "http://www.jobcase.com/"
-    .col-xs-12.experience-dates May 2016 - Present
+  #jobcase-sem.col-xs-12.experience
+    .col-xs-12.experience-title Manager / Director of Member Engineering
+    .col-xs-12.experience-employer= link_to_blank "Jobcase, Inc", "https://www.jobcase.com"
+    .col-xs-12.experience-dates February 2018 - April 2023
     .col-xs-12.experience-body
-      Description coming soon!
-      %br
-      = image_tag("images/under-construction.png")
+      .col-xs-1.equal-height-column
+      .col-xs-5.experience-description-wrapper
+        .experience-description.pull-right
+          .experience-description-title Software Engineering
+          %ul
+            %li Championed turning the legacy monolith my team owned into component microservices. My teams owned about 10 microservices as of 2023, and had also handed some off to team's where the service better aligned with their vertical.
+            %li Helped drive the company towards an event driven architecture to facilitate scaling by being the team beta the components.
+            %li Wrote and maintained many of the  ETL processes the analytics organization relied on. This was a combination of owning many of the major legacy ETL processes, as well as being the first team to harness the event-driven architecture for a more modern ETL approach.
+            %li Operational response excellence. My teams were often used as examples for what teams should strive to do. I designed a tiered alert response approach using a combination of Slack, PagerDuty, and Rollbar, and was often involved in fixing bugs to keep the engineers focused on their sprint goals.
+      .col-xs-5.experience-description-wrapper
+        .experience-description.pull-left
+          .experience-description-title Teamwork and Leadership
+          %ul
+            %li Managed a backend platform team that maintained the monolithic Java application containing user data. The application was a required part of most runtime operations across the company. If this application went down, so did most of the company.
+            %li Managed a second, product-focused team (starting in 2019 in tandem) that worked on Jobcase.com features such as the user profile page, SSO/auth, notifications, connections between users, direct messaging, and profile search.
+            %li Engineer career and team satisfaction were consistently reviewed well in bottom up performance reviews, never had an engineer leave the company from my team voluntarily.
+            %li Promoted from Software Engineering Manager to Senior Software Engineer Manager after about 4 years, and then promoted again to Director level less than a year later. Managed one manager for my final 6 months.
+      .col-xs-1.equal-height-column
+
+  %hr.col-xs-10.col-xs-offset-1
+
+  #jobcase-sse.col-xs-12.experience
+    .col-xs-12.experience-title Senior Software Engineer
+    .col-xs-12.experience-employer= link_to_blank "Jobcase, Inc", "https://www.jobcase.com"
+    .col-xs-12.experience-dates May 2016 - February 2018
+    .col-xs-12.experience-body
+      .col-xs-1.equal-height-column
+      .col-xs-5.experience-description-wrapper
+        .experience-description.pull-right
+          .experience-description-title Software Engineering
+          %ul
+            %li Primarily worked on a variety of backend Java systems such as the user data store and communication systems.
+            %li Upgraded the cross application Java stack from Hibernate 4 to 5 in a JTA environment.
+            %li Designed and built an in-house communication templating system using Velocity.
+            %li Gained a lot of experience with enterprise Java, handling medium (not quite big) data in batch jobs, and applications that receive 50k+ RPM.
+            %li Became proficient in performance analysis for Java applications and MySQL databases.
+      .col-xs-5.experience-description-wrapper
+        .experience-description.pull-left
+          .experience-description-title Teamwork and Leadership
+          %ul
+            %li Became fluent in design by contract software development methodology, led design on several medium size projects.
+            %li Gained experience reconciling new requirements / projects with existing architectures.
+            %li Took part in the engineer hiring process as a technical interviewer.
+            %li Promoted to a managerial role after about two years.
+      .col-xs-1.equal-height-column
 
   %hr.col-xs-10.col-xs-offset-1
 
   #upmc-enterprises.col-xs-12.experience
     .col-xs-12.experience-title  Intermediate Software Engineer
-    .col-xs-12.experience-employer= link_to_blank "UPMC Enterprises", "http://enterprises.upmc.com/"
+    .col-xs-12.experience-employer= link_to_blank "UPMC Enterprises", "https://enterprises.upmc.com/"
     .col-xs-12.experience-dates January 2015 - April 2016
     .col-xs-12.experience-body
       .col-xs-1.equal-height-column
@@ -23,10 +65,9 @@
           .experience-description-title Software Engineering
           %ul
             %li Primarily worked on building web services using Ruby on Rails and Spring Boot.
-            %li Built example clients, test suites and development infrastructure for most projects.
+            %li Built REST APIs, example clients, test suites, and development infrastructure for most projects.
             %li Gained expertise of supporting technologies such as MySQL, MongoDB, JPA, Docker, Jenkins and Cucumber.
             %li Learned a lot about healthcare specific technologies such as Epic, Cerner, HL7 and Mirth.
-            %li Helped maintain and support production deployments.
             %li Was involved in designing the system architecture for a few new applications.
       .col-xs-5.experience-description-wrapper
         .experience-description.pull-left
@@ -34,16 +75,15 @@
           %ul
             %li Was heavily involved in creating and prioritizing the backlog for several projects.
             %li Gained experience working with larger teams and eliminating the "bus" factor.
-            %li Consistently worked with other divisions such as product owners and QA to review requirements, tests and code.
-            %li Developed an understanding of the healthcare domain and the role that technology plays in it.
-            %li Recieved a promotion (Associate &rarr; Intermediate) after 1 year.
+            %li Consistently worked with other divisions such as product owners and QA to review requirements, tests, and code.
+            %li Received a promotion (Associate &rarr; Intermediate) after 1 year.
       .col-xs-1.equal-height-column
 
   %hr.col-xs-10.col-xs-offset-1
 
   #athletetrax.col-xs-12.experience
     .col-xs-12.experience-title Ruby on Rails Developer
-    .col-xs-12.experience-employer= link_to_blank "AthleteTrax", "http://athletetrax.info"
+    .col-xs-12.experience-employer= link_to_blank "AthleteTrax", "https://athletetrax.info"
     .col-xs-12.experience-dates May 2013 - August 2014
     .col-xs-12.experience-body
       .col-xs-1.equal-height-column
@@ -51,10 +91,10 @@
         .experience-description.pull-right
           .experience-description-title Software Engineering
           %ul
-            %li Built out features for the primary Ruby on Rails application.
-            %li Contributed to and refactored the sizable Cucumber test suite.
+            %li Contributed various features to the primary Ruby on Rails web application.
+            %li Contributed to and refactored the sizable Cucumber / Selenium test suite.
             %li Maintained and debugged the production deployment and database.
-            %li Provided infrastructure (through Google Analytics) for our data analysts. 
+            %li Provided infrastructure (through Google Analytics) for data analysts. 
       .col-xs-5.experience-description-wrapper
         .experience-description.pull-left
           .experience-description-title Teamwork and Leadership
@@ -62,6 +102,6 @@
             %li Was involved in the planning and design of the company's website and application.
             %li Was often given the chance to take the lead on small projects.
             %li Gained experience working with a small and partially remote team.
-            %li Worked for/with the sales, data and management teams directly.
+            %li Worked for/with the sales, data, and management teams directly.
       .col-xs-1.equal-height-column
 
