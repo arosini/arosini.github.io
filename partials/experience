@@ -10,10 +10,10 @@
 <div class='experience-description pull-right'>
 <div class='experience-description-title'>Software Engineering</div>
 <ul>
-<li>Championed turning the legacy monolith my team owned into component microservices.</li>
-<li>Helped drive the company towards an event driven architecture to facilitate scaling by being the biggest and earliest adopter.</li>
-<li>Wrote and maintained many of the major ETL processes the analytics organization relied on.</li>
-<li>Operational response excellence--my teams were often used as examples for what teams should strive to do.</li>
+<li>Championed turning the legacy monolith my team owned into component microservices. My teams owned about 10 microservices as of 2023, and had also handed some off to team's where the service better aligned with their vertical.</li>
+<li>Helped drive the company towards an event driven architecture to facilitate scaling by being the team beta the components.</li>
+<li>Wrote and maintained many of the  ETL processes the analytics organization relied on. This was a combination of owning many of the major legacy ETL processes, as well as being the first team to harness the event-driven architecture for a more modern ETL approach.</li>
+<li>Operational response excellence. My teams were often used as examples for what teams should strive to do. I designed a tiered alert response approach using a combination of Slack, PagerDuty, and Rollbar, and was often involved in fixing bugs to keep the engineers focused on their sprint goals.</li>
 </ul>
 </div>
 </div>
@@ -23,7 +23,7 @@
 <ul>
 <li>Managed a backend platform team that maintained the monolithic Java application containing user data. The application was a required part of most runtime operations across the company. If this application went down, so did most of the company.</li>
 <li>Managed a second, product-focused team (starting in 2019 in tandem) that worked on Jobcase.com features such as the user profile page, SSO/auth, notifications, connections between users, direct messaging, and profile search.</li>
-<li>Engineer career satisfaction and growth were consistently reviewed well in bottom up performance reviews, never had an engineer leave the company from my team voluntarily.</li>
+<li>Engineer career and team satisfaction were consistently reviewed well in bottom up performance reviews, never had an engineer leave the company from my team voluntarily.</li>
 <li>Promoted from Software Engineering Manager to Senior Software Engineer Manager after about 4 years, and then promoted again to Director level less than a year later. Managed one manager for my final 6 months.</li>
 </ul>
 </div>
