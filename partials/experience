@@ -1,0 +1,132 @@
+<section class='container-fluid'>
+<div class='col-xs-12 section-title'>Experience</div>
+<div class='col-xs-12 experience' id='jobcase-sem'>
+<div class='col-xs-12 experience-title'>Manager / Director of Member Engineering</div>
+<div class='col-xs-12 experience-employer'><a href="https://www.jobcase.com" target="_blank">Jobcase, Inc</a></div>
+<div class='col-xs-12 experience-dates'>February 2018 - April 2023</div>
+<div class='col-xs-12 experience-body'>
+<div class='col-xs-1 equal-height-column'></div>
+<div class='col-xs-5 experience-description-wrapper'>
+<div class='experience-description pull-right'>
+<div class='experience-description-title'>Software Engineering</div>
+<ul>
+<li>Championed turning the legacy monolith my team owned into component microservices.</li>
+<li>Helped drive the company towards an event driven architecture to facilitate scaling by being the biggest and earliest adopter.</li>
+<li>Wrote and maintained many of the major ETL processes the analytics organization relied on.</li>
+<li>Operational response excellence--my teams were often used as examples for what teams should strive to do.</li>
+</ul>
+</div>
+</div>
+<div class='col-xs-5 experience-description-wrapper'>
+<div class='experience-description pull-left'>
+<div class='experience-description-title'>Teamwork and Leadership</div>
+<ul>
+<li>Managed a backend platform team that maintained the monolithic Java application containing user data. The application was a required part of most runtime operations across the company. If this application went down, so did most of the company.</li>
+<li>Managed a second, product-focused team (starting in 2019 in tandem) that worked on Jobcase.com features such as the user profile page, SSO/auth, notifications, connections between users, direct messaging, and profile search.</li>
+<li>Engineer career satisfaction and growth were consistently reviewed well in bottom up performance reviews, never had an engineer leave the company from my team voluntarily.</li>
+<li>Promoted from Software Engineering Manager to Senior Software Engineer Manager after about 4 years, and then promoted again to Director level less than a year later. Managed one manager for my final 6 months.</li>
+</ul>
+</div>
+</div>
+<div class='col-xs-1 equal-height-column'></div>
+</div>
+</div>
+<hr class='col-xs-10 col-xs-offset-1'>
+<div class='col-xs-12 experience' id='jobcase-sse'>
+<div class='col-xs-12 experience-title'>Senior Software Engineer</div>
+<div class='col-xs-12 experience-employer'><a href="https://www.jobcase.com" target="_blank">Jobcase, Inc</a></div>
+<div class='col-xs-12 experience-dates'>May 2016 - February 2018</div>
+<div class='col-xs-12 experience-body'>
+<div class='col-xs-1 equal-height-column'></div>
+<div class='col-xs-5 experience-description-wrapper'>
+<div class='experience-description pull-right'>
+<div class='experience-description-title'>Software Engineering</div>
+<ul>
+<li>Primarily worked on a variety of backend Java systems such as the user data store and communication systems.</li>
+<li>Upgraded the cross application Java stack from Hibernate 4 to 5 in a JTA environment.</li>
+<li>Designed and built an in-house communication templating system using Velocity.</li>
+<li>Gained a lot of experience with enterprise Java, handling medium (not quite big) data in batch jobs, and applications that receive 50k+ RPM.</li>
+<li>Became proficient in performance analysis for Java applications and MySQL databases.</li>
+</ul>
+</div>
+</div>
+<div class='col-xs-5 experience-description-wrapper'>
+<div class='experience-description pull-left'>
+<div class='experience-description-title'>Teamwork and Leadership</div>
+<ul>
+<li>Became fluent in design by contract software development methodology, led design on several medium size projects.</li>
+<li>Gained experience reconciling new requirements / projects with existing architectures.</li>
+<li>Took part in the engineer hiring process as a techical interviewer.</li>
+<li>Promoted to a managerial role after about two years.</li>
+</ul>
+</div>
+</div>
+<div class='col-xs-1 equal-height-column'></div>
+</div>
+</div>
+<hr class='col-xs-10 col-xs-offset-1'>
+<div class='col-xs-12 experience' id='upmc-enterprises'>
+<div class='col-xs-12 experience-title'>Intermediate Software Engineer</div>
+<div class='col-xs-12 experience-employer'><a href="https://enterprises.upmc.com/" target="_blank">UPMC Enterprises</a></div>
+<div class='col-xs-12 experience-dates'>January 2015 - April 2016</div>
+<div class='col-xs-12 experience-body'>
+<div class='col-xs-1 equal-height-column'></div>
+<div class='col-xs-5 experience-description-wrapper'>
+<div class='experience-description pull-right'>
+<div class='experience-description-title'>Software Engineering</div>
+<ul>
+<li>Primarily worked on building web services using Ruby on Rails and Spring Boot.</li>
+<li>Built REST APIs, example clients, test suites, and development infrastructure for most projects.</li>
+<li>Gained expertise of supporting technologies such as MySQL, MongoDB, JPA, Docker, Jenkins and Cucumber.</li>
+<li>Learned a lot about healthcare specific technologies such as Epic, Cerner, HL7 and Mirth.</li>
+<li>Was involved in designing the system architecture for a few new applications.</li>
+</ul>
+</div>
+</div>
+<div class='col-xs-5 experience-description-wrapper'>
+<div class='experience-description pull-left'>
+<div class='experience-description-title'>Teamwork and Leadership</div>
+<ul>
+<li>Was heavily involved in creating and prioritizing the backlog for several projects.</li>
+<li>Gained experience working with larger teams and eliminating the "bus" factor.</li>
+<li>Consistently worked with other divisions such as product owners and QA to review requirements, tests, and code.</li>
+<li>Recieved a promotion (Associate &rarr; Intermediate) after 1 year.</li>
+</ul>
+</div>
+</div>
+<div class='col-xs-1 equal-height-column'></div>
+</div>
+</div>
+<hr class='col-xs-10 col-xs-offset-1'>
+<div class='col-xs-12 experience' id='athletetrax'>
+<div class='col-xs-12 experience-title'>Ruby on Rails Developer</div>
+<div class='col-xs-12 experience-employer'><a href="https://athletetrax.info" target="_blank">AthleteTrax</a></div>
+<div class='col-xs-12 experience-dates'>May 2013 - August 2014</div>
+<div class='col-xs-12 experience-body'>
+<div class='col-xs-1 equal-height-column'></div>
+<div class='col-xs-5 experience-description-wrapper'>
+<div class='experience-description pull-right'>
+<div class='experience-description-title'>Software Engineering</div>
+<ul>
+<li>Contributed various features to the primary Ruby on Rails web application.</li>
+<li>Contributed to and refactored the sizable Cucumber / Selenium test suite.</li>
+<li>Maintained and debugged the production deployment and database.</li>
+<li>Provided infrastructure (through Google Analytics) for data analysts.</li>
+</ul>
+</div>
+</div>
+<div class='col-xs-5 experience-description-wrapper'>
+<div class='experience-description pull-left'>
+<div class='experience-description-title'>Teamwork and Leadership</div>
+<ul>
+<li>Was involved in the planning and design of the company's website and application.</li>
+<li>Was often given the chance to take the lead on small projects.</li>
+<li>Gained experience working with a small and partially remote team.</li>
+<li>Worked for/with the sales, data, and management teams directly.</li>
+</ul>
+</div>
+</div>
+<div class='col-xs-1 equal-height-column'></div>
+</div>
+</div>
+</section>

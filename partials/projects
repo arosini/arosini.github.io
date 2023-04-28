@@ -1,0 +1,84 @@
+<section class='container-fluid'>
+<div class='section-title'>Projects</div>
+<div class='project' id='spring-boot-starter-app'>
+<div class='col-xs-1 equal-height-column'></div>
+<div class='col-xs-3 project-image'><a href="https://spring.io/" target="_blank"><img src="/images/spring.png" alt="" /></a></div>
+<div class='col-xs-7 project-text'>
+<div class='project-title'>Deals (Spring Boot APIs)</div>
+<div class='project-description'>
+I built this application primarily as sandbox to try out features of Spring Boot, Spring Data, JPA, MySQL, Maven, Lombok and JUnit. As of now, it contains APIs, a service layer, a persistence layer, and an overly verbose test suite using test containers / docker.
+<br>
+<br>
+The application showcases how easy it is to implement simple microservices with Spring Boot. It contains what I consider to be best practive in terms of separating out a controller layer from the service and persistence layers. Right now, its
+basically just a CRUD application, but I hope to add a permissions aware user model, gamification, and search to the application when I find the time. I would also like to build a front-end for it (perhaps with Flutter). If you are interested
+in helping with that in your spare time, let me know!
+</div>
+<span><a href="https://gitlab.com/adaros48/deals" target="_blank"><img src="/images/gitlab.png" alt="" /> Source Code</a></span>
+</div>
+<div class='col-xs-1 equal-height-column'></div>
+</div>
+<hr class='col-xs-10 col-xs-offset-1'>
+<div class='project' id='wildstyle-generator'>
+<div class='col-xs-1 equal-height-column'></div>
+<div class='col-xs-7 project-text'>
+<div class='project-title'>Wildstyle Generator</div>
+<div class='project-description'>
+I built this test library because I was frustrated there was nothing like FactoryGirl for the Java ecosystem. I also use this as an example of how
+<a href="https://en.wikipedia.org/wiki/Design_by_contract" target="_blank">Design By Contract</a>
+development works.
+<br>
+<br>
+The library is published to Maven central with version 0.1! I felt it needed a lot more functionality and testing before it deserved V1.0. Right now, it can be used to generate POJOs
+during JUnit tests with a few features, but nowhere near what more established libraries in other languages can do.
+</div>
+<div class='col-xs-12 project-links'>
+<div class='col-xs-6'><a href="https://github.com/arosini/wildstyle-generator" target="_blank"><img src="/images/github.png" alt="" /> Source Code</a></div>
+<div class='col-xs-6'><a href="https://central.sonatype.com/artifact/com.github.arosini/wildstyle-generator/0.1" target="_blank"><img src="/images/maven.png" alt="" /> Maven Central Repository</a></div>
+</div>
+</div>
+<div class='col-xs-3 project-image'><a href="http://rubyonrails.org/" target="_blank"><img src="/images/maven-large.png" alt="" /></a></div>
+<div class='col-xs-1 equal-height-column'></div>
+</div>
+<hr class='col-xs-10 col-xs-offset-1'>
+<div class='project' id='this-website'>
+<div class='col-xs-1 equal-height-column'></div>
+<div class='col-xs-3 project-image'><a href="https://middlemanapp.com/" target="_blank"><img src="/images/middleman.png" alt="" /></a></div>
+<div class='col-xs-7 col-xs-offset-1 project-text'>
+<div class='project-title'>This Website</div>
+<div class='project-description'>
+I built this website using Middleman, HAML, SASS, CoffeeScript, and GitHub Pages.
+<br>
+<br>
+This website is meant to serve the same purpose as a resume, except implemented as a website. I think basic HTML/CSS/JS should be a part of a developers toolkit, and this gives me a way of doing some of that every so often.
+I tried to design the webiste in a more modern style with horizontal sections that would lead the reader through in an easy-to-read way.
+Design has never been my strong point and I would certainly appreciate any input you had to offer in terms of the design and UX of this website!
+</div>
+<div class='col-xs-12 project-links'>
+<a href="https://github.com/arosini/arosini.github.io" target="_blank"><img src="/images/github.png" alt="" /> Source Code</a>
+</div>
+</div>
+<div class='col-xs-1 equal-height-column'></div>
+</div>
+<hr class='col-xs-10 col-xs-offset-1'>
+<div class='project' id='lineup-generator'>
+<div class='col-xs-1 equal-height-column'></div>
+<div class='col-xs-7 project-text'>
+<div class='project-title'>Daily Fantasy Sports Lineup Generator</div>
+<div class='project-description'>
+When I first got into daily fantasy sports, all I could think about was how lineup generation was a search optimization problem. So I built this just to scratch the itch of knowing if I could make something efficient enough
+to actually compute an answer given the sheer number of possible permutations of a fantasy sports lineup.
+<br>
+<br>
+I did the easy part of this project, which is setting up a harness to pull daily fantasy sports data from a chosen provider (DraftKings or FanDuel for example), choose a contest, and generate a lineup for that contest given a model for scoring each player's value.
+The harder part is making a good model for each player's value. Just as a proof of concept the algorithm can generate a lineup, I used the player's average fantasy points value. Thats not a particularly good predictor though, since it doesn't take into
+account injuries, hot streaks, opponents, etc... I am hoping to one day create an ML model for the predicitions when I find the time.
+</div>
+<div class='col-xs-12 project-links'>
+<div class='col-xs-6'><a href="https://github.com/arosini/wildstyle-generator" target="_blank"><img src="/images/github.png" alt="" /> Source Code</a></div>
+<div class='col-xs-6'><a href="https://central.sonatype.com/artifact/com.github.arosini/wildstyle-generator/0.1" target="_blank"><img src="/images/maven.png" alt="" /> Maven Central Repository</a></div>
+</div>
+</div>
+<div class='col-xs-3 project-image'><a href="http://rubyonrails.org/" target="_blank"><img src="/images/maven-large.png" alt="" /></a></div>
+<div class='col-xs-1 equal-height-column'></div>
+</div>
+</section>

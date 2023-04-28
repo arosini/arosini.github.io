@@ -1,0 +1,16 @@
+<section class='container-fluid'>
+<div id='hello'>Hi! My name is Adam.</div>
+<div class='col-xs-8 col-xs-offset-2' id='intro-statement'>
+<div class='col-xs-12 intro-statement-row'>
+I am a
+<div class='emphasized' id='job-title'>Software Engineer & Manager.</div>
+</div>
+<div class='col-xs-12 intro-statement-row'>
+I am currently looking for a remote position and live near
+<div class='emphasized' id='current-location'>Boston, MA</div><span>.</span></div>
+<div class='col-xs-12 intro-statement-row'>
+I specialize in building self-driven teams, as well as developing scalable services with Java.
+I have significant experience with operational incident management, ETL (Extract-Transform-Load) processes, and converting monolith architecture to event-driven microservices.
+</div>
+</div>
+</section>

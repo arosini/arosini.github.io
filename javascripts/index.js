@@ -1,0 +1,1 @@
+(function(){!function(){$(document).ready(function(){var t,n;return n=parseInt($("body").css("margin-top"),10),t=$("html, body"),$("#top-navbar a").click(function(o){var a;o.preventDefault(),a=$.attr(this,"href"),t.animate({scrollTop:$(a).offset().top-n},500,function(){history.pushState({},"",a)})})})}()}).call(this);

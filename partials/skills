@@ -1,0 +1,44 @@
+<section class='container-fluid dark'>
+<div class='col-xs-12 section-title'>Skills</div>
+<div class='col-xs-12 skill-category-row'>
+<div class='skill-category-title'>Design</div>
+<div class='skill-category-list'>
+APIs, microservices, data pipelines, monitoring / alerting, instrumentation, databases, ETL, event driven architecture
+</div>
+</div>
+<hr class='col-xs-4 col-xs-offset-4'>
+<div class='col-xs-12 skill-category-row'>
+<div class='skill-category-title'>Management</div>
+<div class='skill-category-list'>
+MVPifying requirements, team building, process refinement, mentoring
+</div>
+</div>
+<hr class='col-xs-4 col-xs-offset-4'>
+<div class='col-xs-12 skill-category-row'>
+<div class='skill-category-title'>Java</div>
+<div class='skill-category-list'>
+Spring, JPA / Hibernate, JUnit, design, performance optimization
+</div>
+</div>
+<hr class='col-xs-4 col-xs-offset-4'>
+<div class='col-xs-12 skill-category-row'>
+<div class='skill-category-title'>Databases / Caches</div>
+<div class='skill-category-list'>
+MySQL, Elasticsearch, Hazelcast, Redis, design, performance optimization
+</div>
+</div>
+<hr class='col-xs-4 col-xs-offset-4'>
+<div class='col-xs-12 skill-category-row'>
+<div class='skill-category-title'>DevOps</div>
+<div class='skill-category-list'>
+Docker, Helm, Kubernetes, Bash, AWS / Cloudformation
+</div>
+</div>
+<hr class='col-xs-4 col-xs-offset-4'>
+<div class='col-xs-12 skill-category-row'>
+<div class='skill-category-title'>Tools</div>
+<div class='skill-category-list'>
+Git, GitLab CI, Jenkins, Maven, SumoLogic, NewRelic, DataDog
+</div>
+</div>
+</section>
