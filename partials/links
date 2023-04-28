@@ -1,7 +1,7 @@
 <section class='container-fluid'>
 <div class='section-title'>Links</div>
 <div class='col-xs-12 profiles'>
-<div class='col-xs-2 equal-height-column'></div>
+<div class='col-xs-2'></div>
 <div class='col-xs-2 profile'>
 <a href="https://github.com/arosini" target="_blank"><img src="/images/github-large.png" alt="" /></a>
 </div>
@@ -14,6 +14,6 @@
 <div class='col-xs-2 profile'>
 <a href="https://www.jobcase.com/p/adam.rosini" target="_blank"><img src="/images/gitlab-large.png" alt="" /></a>
 </div>
-<div class='col-xs-2 equal-height-column'></div>
+<div class='col-xs-2'></div>
 </div>
 </section>
